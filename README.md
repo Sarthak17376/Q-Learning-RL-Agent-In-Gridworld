@@ -103,11 +103,12 @@ Where:
 
 The script generates a **Policy Grid** showing the best action for each cell:
 
-```text```
+```text
  v  >  v  <  v 
  v  X  v  X  v 
  >  >  v  >  v 
  ^  X  v  X  v 
  ^  >  >  >  G
+```
 
 (Where ^, >, v, < represent movement direction, X is an obstacle, and G is the goal)
